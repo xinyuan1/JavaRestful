@@ -18,7 +18,7 @@ public class V1_status {
 
 	@Path("/version")
 	@GET		
-	@Produces(MediaType.TEXT_HTML)
+	@Producesttt(MediaType.TEXT_HTML)
 	public String returnVersion(){
 		return "<p>Version: <p>"+api_version+" "+ new java.util.Date();		
 		
